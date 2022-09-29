@@ -4,22 +4,31 @@ export const StyledIntroductionContent = styled.div`
   display: block;
 `;
 
-export const LogoAndNameContainer = styled.div`
+export const LogoAndName = styled.div`
   margin: 0px auto;
   text-align: center;
 `;
 
-export const LogoContainer = styled.div`
+export const Logo = styled.div`
   margin: 0px auto;
   text-align: center;
 `;
 
-export const StyledLogo = styled.img`
+export const LogoImage = styled.img`
   width: 300px;
   filter: drop-shadow(#ffb845 -1px -1px 2px) drop-shadow(#ffb845 1px 1px 2px);
 `;
 
-export const NameContainer = styled.div`
+export const Name = styled.div`
   margin: 0px auto;
   text-align: center;
 `;
+
+export const ContactInfo = styled(LogoAndName)``;
+
+export const SocialsContainer = styled.div`
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+`;
+export const Workplace = styled.div``;

@@ -58,11 +58,21 @@ table {
 }
 
 body {
-	background: url(/assets/grain2.png) #552275;
+	background: url(/src/assets/grain2.png) #552275;
     color: rgb(229, 225, 230);
 }
 
 h1, h2, h3, h4, h5, h6, p, label {
     text-shadow: rgb(255 184 69 / 60%) -1px -1px 6px, rgb(124 127 255 / 60%) 1px 1px 6px;
     overflow-wrap: break-word;
+}
+
+a {
+	color: #FFB845;
+	transition: color 0.2s ease 0s;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F97698;
 }
