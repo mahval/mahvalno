@@ -5,7 +5,6 @@ export const StyledSection = styled.section`
   margin-top: 128px;
   margin-bottom: 0px;
   padding: 0px 64px;
-  height: 1000px;
 `;
 
 export const SectionContent = styled.div`

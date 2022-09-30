@@ -1,5 +1,7 @@
 import styled from 'styled-components';
-import GitLogo from '../../assets/gitlogo.png';
+import GitLogo from '../../assets/social-logos/github.png';
+import StackOverflowLogo from '../../assets/social-logos/stack-overflow.png';
+import LinkedInLogo from '../../assets/social-logos/linkedin.png';
 
 interface SocialItem {
   name: 'GitHub' | 'StackOverflow' | 'LinkedIn';
@@ -16,21 +18,21 @@ const socialItems: SocialItem[] = [
   {
     name: 'StackOverflow',
     url: 'https://stackoverflow.com/users/8670067/mahval',
-    imageUrl: '',
+    imageUrl: StackOverflowLogo,
   },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/mahval/',
-    imageUrl: '',
+    imageUrl: LinkedInLogo,
   },
 ];
 
 const SocialButton = ({ name, url, imageUrl }: SocialItem) => (
-  <LOL>
+  <SocialButtonContainer>
     <StyledSocialButton href={url} target="_blank">
       <LogoImage src={imageUrl} alt={name} />
     </StyledSocialButton>
-  </LOL>
+  </SocialButtonContainer>
 );
 
 export const Socials = () => (
@@ -43,11 +45,15 @@ export const Socials = () => (
 
 const StyledSocialButton = styled.a``;
 
-const LOL = styled.div`
-  height: 64px;
+const SocialButtonContainer = styled.div`
   margin: 0 14px;
 `;
 
 const LogoImage = styled.img`
-  filter: drop-shadow(#ced479 -1px -1px 2px) drop-shadow(#ced479 1px 1px 2px);
+  filter: drop-shadow(#ced479 -1px -1px 1px) drop-shadow(#ced479 1px 1px 1px);
+  opacity: 0.5;
+  transition: opacity 0.5s ease 0s;
+  &:hover {
+    opacity: 1;
+  }
 `;
