@@ -56,4 +56,7 @@ const LogoImage = styled.img`
   &:hover {
     opacity: 1;
   }
+  @media only screen and (max-width: 600px) {
+    max-width: 28px;
+  }
 `;

@@ -15,8 +15,11 @@ export const Logo = styled.div`
 `;
 
 export const LogoImage = styled.img`
-  width: 300px;
+  max-width: 300px;
   filter: drop-shadow(#ffb845 -1px -1px 2px) drop-shadow(#ffb845 1px 1px 2px);
+  @media only screen and (max-width: 600px) {
+    max-width: 200px;
+  }
 `;
 
 export const Name = styled.div`

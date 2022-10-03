@@ -10,9 +10,12 @@ export const StyledParagraph = styled.p`
 `;
 
 export const StyledMasterHeader = styled.h1`
-  margin: 32px 0px;
+  margin: 16px 0 32px 0px;
   font-weight: bold;
-  font-size: 144px;
+  font-size: 60px;
   line-height: 100%;
   color: #e5e1e6;
+  @media only screen and (max-width: 600px) {
+    font-size: 40px;
+  }
 `;
