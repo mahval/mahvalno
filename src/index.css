@@ -76,3 +76,9 @@ a {
 a:hover {
 	color: #F97698;
 }
+
+nav a {
+	color: rgb(229, 225, 230);
+    opacity: 0.75;
+    transition: all 0.1s ease 0s;
+}

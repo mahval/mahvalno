@@ -1,10 +1,9 @@
-import React from 'react';
 import { Introduction } from '../../components/introduction/Introduction';
 import { Separator } from '../../components/separator/Separator';
 import { CenteredSectionContent, StyledSection } from '../../styled-components/sections';
 
 export const WelcomePage = () => (
-  <div>
+  <>
     <StyledSection>
       <CenteredSectionContent>
         <Introduction />
@@ -15,5 +14,5 @@ export const WelcomePage = () => (
         <Separator />
       </CenteredSectionContent>
     </StyledSection>
-  </div>
+  </>
 );
