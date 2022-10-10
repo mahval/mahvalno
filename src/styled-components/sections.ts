@@ -5,6 +5,9 @@ export const StyledSection = styled.section`
   margin-top: 128px;
   margin-bottom: 0px;
   padding: 0px 64px;
+  @media only screen and (max-width: 600px) {
+    margin-top: 75px;
+  }
 `;
 
 export const SectionContent = styled.div`
