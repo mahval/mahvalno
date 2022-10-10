@@ -9,7 +9,7 @@ import {
   Workplace,
 } from './styled-components';
 import SimpleCat from '../../assets/simple-cat.png';
-import { StyledMasterHeader, StyledParagraph } from '../../styled-components/text';
+import { StyledWelcomeHeader, StyledParagraph } from '../../styled-components/text';
 import { Socials } from '../socials/Socials';
 
 export const Introduction = () => {
@@ -22,7 +22,7 @@ export const Introduction = () => {
           <LogoImage src={SimpleCat} />
         </Logo>
         <Name>
-          <StyledMasterHeader>{NAME}</StyledMasterHeader>
+          <StyledWelcomeHeader>{NAME}</StyledWelcomeHeader>
         </Name>
       </LogoAndName>
       <ContactInfo>

@@ -7,6 +7,10 @@ export const StyledSection = styled.section`
   padding: 0px 64px;
   @media only screen and (max-width: 600px) {
     margin-top: 75px;
+    padding: 0 40px;
+  }
+  &:last-of-type {
+    margin-bottom: 128px;
   }
 `;
 
