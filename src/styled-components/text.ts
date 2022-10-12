@@ -6,7 +6,7 @@ export const StyledParagraph = styled.p`
   font-size: 16px;
   line-height: 24px;
   color: #e5e1e6;
-  opacity: 0.75;
+  opacity: 0.8;
 `;
 
 export const StyledMasterHeader = styled.h1`

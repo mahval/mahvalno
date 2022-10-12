@@ -1,6 +1,7 @@
 import { Introduction } from '../../components/introduction/Introduction';
 import { SeparatorSection } from '../../components/separator/SeparatorSection';
-import { CenteredSectionContent, StyledSection } from '../../styled-components/sections';
+import { WorkExperience } from '../../components/work-experience/WorkExperience';
+import { CenteredSectionContent, SectionContent, StyledSection } from '../../styled-components/sections';
 
 export const WelcomePage = () => (
   <>
@@ -10,5 +11,10 @@ export const WelcomePage = () => (
       </CenteredSectionContent>
     </StyledSection>
     <SeparatorSection />
+    <StyledSection>
+      <SectionContent>
+        <WorkExperience />
+      </SectionContent>
+    </StyledSection>
   </>
 );

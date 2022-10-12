@@ -11,7 +11,7 @@ const StyledGlitterWrapper = styled.div`
 `;
 
 const StyledGlitter = styled.div`
-  background: rgb(229, 225, 230);
+  background: #e5e1e6;
   height: 100%;
 `;
 
@@ -25,7 +25,7 @@ const StyledGlitterLong = styled(StyledGlitter)`
 
 const StyledLineLeft = styled.div`
   align-self: flex-end;
-  background: rgb(229, 225, 230);
+  background: #e5e1e6;
   height: 1px;
   width: 50%;
 `;
@@ -42,7 +42,7 @@ const StyledLineMiddleContainer = styled.div`
 `;
 
 const StyledLineMiddle = styled.div`
-  background: rgb(229, 225, 230);
+  background: #e5e1e6;
   height: 1px;
   position: absolute;
   transform: rotate(-45deg);
@@ -51,7 +51,7 @@ const StyledLineMiddle = styled.div`
 
 const StyledLineRight = styled.div`
   align-self: flex-start;
-  background: rgb(229, 225, 230);
+  background: #e5e1e6;
   height: 1px;
   width: 50%;
 `;
