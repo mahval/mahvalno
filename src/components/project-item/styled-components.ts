@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { StyledCategoryHeader } from '../../styled-components/text';
 
 export const ProjectItemDetails = styled.details``;
 
@@ -29,4 +30,8 @@ export const StyledHeaderContent = styled.summary`
     content: '[+]';
     transition: letter-spacing 0.2s ease 0.2s, text-indent 0.2s ease 0.2s, color 0.4s ease 0s;
   }
+`;
+
+export const StyledFromToInfo = styled(StyledCategoryHeader)`
+  font-size: 1em;
 `;

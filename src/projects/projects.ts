@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
     description:
       'Utvikling av et digitalt klage- og ankeskjema for brukere av NAV, samt et nytt digitalt saksbehandlersystem som en del av effektivisering av klageprosessen i NAV, både for brukere og for saksbehandlere.',
     from: new Date(2020, 3),
-    to: new Date(2020, 2),
+    to: new Date(2022, 2),
     website: 'https://www.nav.no/',
     logoUrl: 'https://seeklogo.com/images/N/nav-norwegian-labour-and-welfare-logo-6B5873D1FD-seeklogo.com.png',
   },
