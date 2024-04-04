@@ -10,6 +10,6 @@ const StyledSpriteImage = styled.img`
 export const Sprite = ({ sprite }: SpriteProps) => (
   <StyledSpriteContainer href={sprite.imageUrl} target="_blank">
     <StyledSpriteImage src={sprite.imageUrl} />
-    <StyledSpriteText>{sprite.name}</StyledSpriteText>
+    {sprite.name && <StyledSpriteText>{sprite.name}</StyledSpriteText>}
   </StyledSpriteContainer>
 );

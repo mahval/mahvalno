@@ -9,4 +9,7 @@ export const SMALL_SPRITES: Sprite[] = [
     name: 'Sandshrew',
     imageUrl: 'https://mahval-small-sprites.s3.eu-west-1.amazonaws.com/027Sandshrew.png',
   },
+  {
+    imageUrl: 'https://mahval-small-sprites.s3.eu-west-1.amazonaws.com/kos-big-animated.gif',
+  },
 ];

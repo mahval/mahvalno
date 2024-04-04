@@ -1,5 +1,5 @@
 export interface Sprite {
-  name: string;
+  name?: string;
   imageUrl: string;
   created?: Date;
 }
